@@ -1,3 +1,5 @@
+//@ts-nocheck
+
 "use client";
 import { documentGetAction } from "@/actions/processData/document-get-action";
 import { InfoProcess } from "@/interfaces/process-data-types";

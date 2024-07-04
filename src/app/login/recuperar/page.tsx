@@ -1,5 +1,5 @@
-import RecuperarSenha from '@/components/Login/Recover-password';
-import Link from 'next/link';
+import RecuperarSenha from "@/components/Login/recover-password";
+import Link from "next/link";
 
 export default async function RecuperarPage() {
   return (

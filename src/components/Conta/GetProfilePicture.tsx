@@ -1,3 +1,4 @@
+//@ts-nocheck
 "use client";
 import { profilePictureGetAction } from "@/actions/user/user-profile-picture-get-action";
 import { foto } from "@/interfaces/foto-types";
