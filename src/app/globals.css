@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-menu {
+    @apply bg-white w-full max-w-screen-lg h-[95vh] my-5 rounded-3xl p-6 sm:p-8 md:p-10;
+  }
+  .btn {
+    @apply bg-blue-500 w-full sm:w-auto px-4 sm:px-5 py-2 text-lg sm:text-xl h-auto font-bold text-white rounded-md mx-auto;
+  }
+  .input {
+    @apply pb-4 sm:pb-5 pl-2 bg-[#CFCFCF] rounded-md border-none placeholder-gray-600 outline-gray-400 text-base sm:text-lg dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-600 dark:focus:border-blue-600;
+  }
+  .input-file {
+    @apply block w-full text-sm text-slate-500
+    file:mr-4 file:py-2 file:px-4
+    file:rounded-full file:border-0
+    file:text-base sm:text-lg file:font-semibold
+    file:bg-blue-100 file:text-blue-600
+    hover:file:bg-blue-200
+    hover:file:cursor-pointer;
+  }
+  .select-input {
+    @apply pb-4 sm:pb-5 pl-2 text-base sm:text-lg bg-[#cfcfcf] border border-gray-300 text-gray-600 rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-600 dark:focus:border-blue-600;
+  }
+  .title {
+    @apply text-4xl sm:text-5xl md:text-7xl font-semibold mb-2 text-blue-color-text;
+  }
+  .sub-title {
+    @apply text-3xl sm:text-4xl md:text-5xl font-semibold mb-2 text-blue-color-text my-4 sm:my-5;
+  }
+  .min-title {
+    @apply text-2xl sm:text-3xl md:text-3xl font-semibold mb-2 text-blue-color-text my-4 sm:my-5;
+  }
+  .box-quest {
+    @apply border-[1px] border-blue-300 bg-purple-100 rounded-md w-40 sm:w-48 md:w-56 h-12 sm:h-14 md:h-14 hover:bg-red-50 cursor-pointer flex items-center text-center font-bold gap-2 justify-center lg:w-64 lg:h-20;
+  }
+  .card {
+    @apply bg-card-color rounded-3xl shadow-card;
+  }
+  .mini-card {
+    @apply border border-black rounded-xl flex items-center justify-center;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  line-height: 1;
+}
